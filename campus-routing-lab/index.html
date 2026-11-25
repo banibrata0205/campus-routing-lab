@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Campus routing lab · Group 11</title><link rel="stylesheet" href="lab/style.css"></head>
+<body>
+<header><div class="brand"><b class="logo" aria-hidden="true">↗</b> Campus routing lab</div><span>Group 11 <i>/</i> Computer Networks</span></header>
+<main><div class="intro"><div><div class="eyebrow">UNIVERSITY NETWORK DESIGN</div><h1>Three buildings, two routing protocols.</h1><p>Explore the same campus using RIP v2 and OSPF Area 0.</p></div><span class="tag">Browser simulation</span></div>
+<div class="controls"><div class="protocols" aria-label="Routing protocol"><button id="rip">RIP v2</button><button id="ospf">OSPF Area 0</button></div><div class="field"><label for="from">From</label><select id="from"></select></div><span class="arrow">→</span><div class="field"><label for="to">To</label><select id="to"></select></div></div>
+<nav aria-label="Lab views"><button data-tab="topology">Topology</button><button data-tab="routes">Router tables</button><button data-tab="probes">Connectivity</button><button data-tab="failover">Link failure</button></nav>
+<section id="workspace"></section><footer>Group 11 · Campus routing lab <span>Educational model · IPv4</span></footer></main>
+<script src="lab/network.js"></script><script src="lab/app.js"></script></body></html>
